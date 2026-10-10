@@ -33,7 +33,7 @@ body {
     radial-gradient(ellipse at 50% -10%, #fffaf0 0%, rgba(255, 250, 240, 0) 60%);
   overflow-x: hidden;
 }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }   /* height: auto: sin él, el alto de los atributos estira las imágenes */
 a { color: inherit; }
 a:focus-visible, button:focus-visible { outline: 3px dashed var(--rojo); outline-offset: 3px; }
 .solo-lector { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
